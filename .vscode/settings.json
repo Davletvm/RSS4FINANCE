@@ -1,0 +1,19 @@
+{
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "rss4finance",
+            "group": "rss",
+            "database": "${workspaceFolder:rss4finance}/aseets/db/rss4finance.sql"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "rss4",
+            "database": "${workspaceFolder:rss4finance}/assets/rss4finance.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
